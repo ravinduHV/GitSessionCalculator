@@ -12,8 +12,7 @@ Calculator::Calculator()
 
 double Calculator::add(double a, double b)
 {
-    // TODO
-    return 0;
+    return a+b; // Addition
 }
 
 double Calculator::subtract(double a, double b)
