@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+git#include "Calculator.h"
+=======
 #include "Calculator.h"
+<<<<<<< HEAD
 #include <cmath>
+=======
+#include <math.h>
+>>>>>>> 70ec8965b2c841d5237ecc28f2548fae1418fa19
+>>>>>>> 1db6fc73eeb7edbe58e881f66507655352bee988
 
 // Constructor
 Calculator::Calculator()
@@ -43,7 +51,8 @@ double Calculator::modulus(int a, int b)
 double Calculator::power(double base, double exponent)
 {
     // TODO
-    return 0;
+
+    return cmath::pow(base, exponent); 
 }
 
 double Calculator::squareRoot(double value)
