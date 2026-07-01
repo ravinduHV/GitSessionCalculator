@@ -37,7 +37,7 @@ double Calculator::divide(double a, double b)
 double Calculator::modulus(int a, int b)
 {
     // TODO
-    return 0;
+    return a%b;
 }
 
 double Calculator::power(double base, double exponent)
