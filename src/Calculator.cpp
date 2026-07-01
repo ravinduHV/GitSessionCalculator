@@ -24,8 +24,8 @@ double Calculator::subtract(double a, double b)
 
 double Calculator::multiply(double a, double b)
 {
-    // TODO
-    return 0;
+    return a*b;
+  
 }
 
 double Calculator::divide(double a, double b)
