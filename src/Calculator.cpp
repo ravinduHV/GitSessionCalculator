@@ -1,4 +1,5 @@
 #include "Calculator.h"
+#include <math.h>
 
 // Constructor
 Calculator::Calculator()
@@ -18,8 +19,8 @@ double Calculator::add(double a, double b)
 
 double Calculator::subtract(double a, double b)
 {
-    // TODO
-    return 0;
+    // Substract
+    return a-b;
 }
 
 double Calculator::multiply(double a, double b)
@@ -37,7 +38,7 @@ double Calculator::divide(double a, double b)
 double Calculator::modulus(int a, int b)
 {
     // TODO
-    return 0;
+    return a%b;
 }
 
 double Calculator::power(double base, double exponent)
@@ -80,8 +81,7 @@ double Calculator::absolute(double value)
 
 double Calculator::sine(double angle)
 {
-    // TODO
-    return 0;
+    return std::sin(angle);
 }
 
 double Calculator::cosine(double angle)
@@ -132,7 +132,7 @@ void Calculator::memoryClear()
 // History Functions
 // ==========================
 
-void Calculator::addToHistory(const std::string& expression, double result)
+void Calculator::addToHistory(const std::string &expression, double result)
 {
     // TODO
 }
