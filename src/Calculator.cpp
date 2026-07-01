@@ -51,7 +51,6 @@ double Calculator::modulus(int a, int b)
 double Calculator::power(double base, double exponent)
 {
     // TODO
-
     return cmath::pow(base, exponent); 
 }
 
