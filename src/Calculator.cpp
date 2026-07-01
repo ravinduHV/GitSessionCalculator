@@ -1,5 +1,5 @@
 #include "Calculator.h"
-#include <math.h>
+#include <cmath>
 
 // Constructor
 Calculator::Calculator()
@@ -36,7 +36,7 @@ double Calculator::divide(double a, double b)
 
 double Calculator::modulus(int a, int b)
 {
-    // TODO
+    // Test to show something
     return a%b;
 }
 
@@ -80,7 +80,8 @@ double Calculator::absolute(double value)
 
 double Calculator::sine(double angle)
 {
-    return std::sin(angle);
+    // TODO
+    return 0;
 }
 
 double Calculator::cosine(double angle)
