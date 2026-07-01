@@ -31,7 +31,7 @@ double Calculator::multiply(double a, double b)
 double Calculator::divide(double a, double b)
 {
     // TODO
-    return 0;
+    return a/b;  // division
 }
 
 double Calculator::modulus(int a, int b)
