@@ -38,6 +38,7 @@ double Calculator::divide(double a, double b)
 double Calculator::modulus(int a, int b)
 {
     // TODO
+    // change karooo
     return a%b;
 }
 
