@@ -59,7 +59,17 @@ double Calculator::squareRoot(double value)
 long long Calculator::factorial(int n)
 {
     // TODO
-    return 0;
+    if (n == 0){
+        return 1;
+    }
+
+    long long result = 1;
+
+    for (int i = 1; i <= n; i++) {
+        result *= i;
+    }
+    
+    return result;
 }
 
 double Calculator::absolute(double value)
