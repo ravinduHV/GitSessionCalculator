@@ -28,14 +28,14 @@ double Calculator::subtract(double a, double b)
 
 double Calculator::multiply(double a, double b)
 {
-    // TODO
-    return 0;
+    return a*b;
+  
 }
 
 double Calculator::divide(double a, double b)
 {
     // TODO
-    return 0;
+    return a/b;  // division
 }
 
 double Calculator::modulus(int a, int b)
@@ -48,7 +48,7 @@ double Calculator::power(double base, double exponent)
 {
     // TODO
 
-    return pow(base, exponent); 
+    return cmath::pow(base, exponent); 
 }
 
 double Calculator::squareRoot(double value)
