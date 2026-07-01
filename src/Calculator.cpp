@@ -50,7 +50,7 @@ double Calculator::modulus(int a, int b)
 
 double Calculator::power(double base, double exponent)
 {
-    // TODO
+    // Power Function
     return cmath::pow(base, exponent); 
 }
 
