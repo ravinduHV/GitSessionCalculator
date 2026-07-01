@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+git#include "Calculator.h"
+=======
 #include "Calculator.h"
 #include <math.h>
+>>>>>>> 70ec8965b2c841d5237ecc28f2548fae1418fa19
 
 // Constructor
 Calculator::Calculator()
@@ -13,8 +17,7 @@ Calculator::Calculator()
 
 double Calculator::add(double a, double b)
 {
-    // TODO
-    return 0;
+    return a+b; // Addition
 }
 
 double Calculator::subtract(double a, double b)
@@ -25,14 +28,14 @@ double Calculator::subtract(double a, double b)
 
 double Calculator::multiply(double a, double b)
 {
-    // TODO
-    return 0;
+    return a*b;
+  
 }
 
 double Calculator::divide(double a, double b)
 {
     // TODO
-    return 0;
+    return a/b;  // division
 }
 
 double Calculator::modulus(int a, int b)
@@ -45,7 +48,8 @@ double Calculator::modulus(int a, int b)
 double Calculator::power(double base, double exponent)
 {
     // TODO
-    return 0;
+
+    return cmath::pow(base, exponent); 
 }
 
 double Calculator::squareRoot(double value)
