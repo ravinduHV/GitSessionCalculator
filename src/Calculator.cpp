@@ -18,8 +18,8 @@ double Calculator::add(double a, double b)
 
 double Calculator::subtract(double a, double b)
 {
-    // TODO
-    return 0;
+    // Substract
+    return a-b;
 }
 
 double Calculator::multiply(double a, double b)
