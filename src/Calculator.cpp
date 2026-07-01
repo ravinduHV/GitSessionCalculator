@@ -1,4 +1,4 @@
-#include "Calculator.h"
+git#include "Calculator.h"
 
 // Constructor
 Calculator::Calculator()
@@ -43,7 +43,8 @@ double Calculator::modulus(int a, int b)
 double Calculator::power(double base, double exponent)
 {
     // TODO
-    return 0;
+
+    return pow(base, exponent); 
 }
 
 double Calculator::squareRoot(double value)
